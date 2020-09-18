@@ -22,8 +22,8 @@ const Contactform = () => {
         <div>
             <Container maxWidth="lg">
             <form onSubmit={addnewcontact}>
-                <TextField placeholder="Enter Name" variant="outlined" lable="Name" fullWidth type="text"  required value={name} placeholder="addname" onChange={ChangehandlerName}/>
-                <TextField placeholder="Enter Email" variant="inlined"  fullWidth lable="Phone-no" type="text" required value={number} placeholder="add Number" onChange={ChangehandlerNumber}/>
+                <TextField  variant="outlined" lable="Name" fullWidth type="text"  required value={name} placeholder="addname" onChange={ChangehandlerName}/>
+                <TextField  variant="inlined"  fullWidth lable="Phone-no" type="text" required value={number} placeholder="add Number" onChange={ChangehandlerNumber}/>
                 <Button variant="contained"  fullWidth type="submit" color="primary">Add </Button>
 
                 
