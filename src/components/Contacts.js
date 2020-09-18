@@ -1,10 +1,7 @@
 import React, {useContext} from 'react'
 import { Contactdata } from '../context/Contextdata'
-import { TableHead, Container } from '@material-ui/core';
-import Contactdetail from './Contactdetail'
-import TableCell from '@material-ui/core/TableCell';
-import TableRow from '@material-ui/core/TableRow';
-import Table from '@material-ui/core/Table';
+import { TableHead, Container,Contactdetail,TableCell,TableRow,Table } from '@material-ui/core';
+
 
 
 
